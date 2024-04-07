@@ -511,6 +511,7 @@ int main()
     } while (exit1 == false);
 
     int* arr = new int[size];
+
     cout << "\n----------------------------------------------------------" << endl;
 
     switch(algo) {
