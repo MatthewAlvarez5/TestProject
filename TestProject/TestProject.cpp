@@ -48,10 +48,9 @@ void reverseArr(int* arr, int size) {
     }
 }
 
-// array of random values <size
+// array of random values < size
 void randomArr(int* arr, int size) {
-    for (int i = 0; i < size; i++) {
-        
+    for (int i = 0; i < size; i++) {   
         arr[i] = rand()%size;
     }
 }
@@ -442,9 +441,6 @@ void radixSort(int* arr, int size) {
     }
 
 }
-
-
-
 
 // ---------------------------------------------------------------------------------------------------------------------------------------------------
 // Main ----------------------------------------------------------------------------------------------------------------------------------------------
