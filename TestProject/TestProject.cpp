@@ -1,5 +1,5 @@
 /******************************************************************************
-Author(s): Matthew Alvarez, Jovani Benavides, Mateo, Nestor
+Author(s): Matthew Alvarez, Jovani Benavides, Mateo Sspina, Nestor Garcia
 Course: CSCI 115 Project
 Assignment: Sorting Algorithms
 
@@ -82,6 +82,8 @@ void Swap(int* a, int* b) //swap values in Node
 }
 
 // 1 Bubble Sort ----------------------------------------------------------------------------------------------------------------------------------------------
+// Written By: Matteo Spina
+// Formatted by: Matthew Alvarez
 void bubbleSort(int* arr, int size)
 {
     int min;
@@ -100,6 +102,8 @@ void bubbleSort(int* arr, int size)
 }
 
 // 2 Selection ----------------------------------------------------------------------------------------------------------------------------------------------
+// Written By: Nestor Garcia
+// Formatted by: Matthew Alvarez
 void selectionSort(int arr[], int size) {
     int min;
 
@@ -118,6 +122,8 @@ void selectionSort(int arr[], int size) {
 }
 
 // 3 Insertion ----------------------------------------------------------------------------------------------------------------------------------------------
+// Written By: Jovani Benavides
+// Formatted by: Matthew Alvarez
 void insertionSort(int* arr, int size)
 {
     int j, key;
@@ -136,6 +142,8 @@ void insertionSort(int* arr, int size)
 }
 
 // 4 Merge ----------------------------------------------------------------------------------------------------------------------------------------------
+// Written By: Matteo Spina
+// Formatted by: Matthew Alvarez
 // merge 
 void merge(int* arr, int low, int mid, int high) {
     // Calculate sizes of two subarrays to be merged
@@ -209,6 +217,8 @@ void mergeSort(int* arr, int low, int high) {
 }
 
 // 5 Quick ----------------------------------------------------------------------------------------------------------------------------------------------
+// Written By: Jovani Benavides
+// Formatted by: Matthew Alvarez
 // user input changes pivot 5
 int pivotChoice(int* arr, int low, int high, int choice) {
     if (choice == 1) {    // first value in array
@@ -271,6 +281,8 @@ void quickSort(int* arr, int low, int high, int choice)
 }
 
 // 6 Heap ----------------------------------------------------------------------------------------------------------------------------------------------
+// Written By: Matthew Alvarez
+// Formatted by: Matthew Alvarez
 class Heap
 {
 private:
@@ -351,7 +363,8 @@ int Heap::ExtractMax() {
 }
 
 // 7 Counting ----------------------------------------------------------------------------------------------------------------------------------------------
-
+// Written By: Matthew Alvarez
+// Formatted by: Matthew Alvarez
 void countingSort(int* arr, int size) {
     int max = 0;
 
@@ -388,6 +401,8 @@ void countingSort(int* arr, int size) {
 }
 
 // 8 Radix ----------------------------------------------------------------------------------------------------------------------------------------------
+// Written By: Matthew Alvarez
+// Formatted by: Matthew Alvarez
 void radixSort(int* arr, int size) {
     int max = 0;
     // get max
